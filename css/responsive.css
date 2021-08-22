@@ -1,0 +1,482 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 36px !important;
+    }
+    h2{
+        font-size: 28px !important;
+    }
+    .pbt100 {
+        padding: 55px 0;
+    }
+    /* header */
+    .menu ul li a{
+        padding: 8px 15px !important;
+    }
+    .navbar {
+        padding: 8px 16px !important;
+    }
+    .header-icons{
+        text-align: left !important;
+    }
+    /* digimark */
+    #digimark .image-wrap{
+        padding-top: 45px;
+    }
+    .digimark-content-hero-row h1{
+        font-size: 36px;
+    }
+    /* promo */
+    .promo-items a{
+        display: block;
+        margin-bottom: 24px !important;
+    }
+    /* about us */
+    .about-us-content{
+        margin-top: 24px;
+    }
+    /* perfonmance */
+    #performance .form-content .form-item{
+        margin-bottom: 20px;
+        max-width: 100%;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #performance .form-content .form-item::after{
+        display: none;
+    }
+    /* choouse us */
+    #choose-us .about-us-img{
+        margin-top: 20px !important;
+    }
+    /* word process */
+    .process-line-left,
+    .process-line-right,
+    .process-right::after,
+    .process-left::after,
+    .process-none{
+        display: none;
+    }
+    .process-width.col-lg-5 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: auto;
+    }
+    /* Consulting */
+    .free-trial-image{
+        display: none;
+    }
+    .free-trial-content{
+        background-color: #E80566;
+        /* text-align: left;
+        max-width: 100% !important;
+        padding: 60px 15px !important; */
+    }
+    /* experince */
+    #experince .tab-pane.show .img-wrap , #experince .content-wrap{
+        margin-top: 20px !important;
+    }
+    
+    #experince .services-cards .row{
+        margin: 0  !important;
+    }
+    /* project section */
+    #project-section .portfolio-container .row{
+        margin: 0 !important;
+    }
+    /* price */
+    #pricing-section .popular-price{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    /* testomonial */
+    #testomonial-section .testomonial-slider-wrap .testimonial-img,
+    #testomonial-section .testomonial-slider-wrap::after,
+    #testomonial-section .testomonial-slider-wrap .fas{
+        display: none;
+    }
+    #testomonial-section .testomonial-slider-wrap .media-body{
+        left: 45px;
+    }
+    /* blog section */
+    #blog-section .single-card{
+        margin-bottom: 20px;
+    }
+    /* client section */
+    #client-section .client-heading,
+    #client-section .client-parag{
+        display: none;
+    }
+    #client-section .client-logo{
+        position: relative;
+        top:0;
+    }
+     /* team section */
+     #team-section .team-member{
+        margin-bottom: 20px;
+    }
+    /* call to action */
+    #call-to-action a{
+        margin-top: 20px;
+    }
+      /* footer */
+      .footer-top .footer-nav-wrap{
+        margin-bottom: 20px !important;
+    }
+    /* header about */
+    #header .bg-transparent .navbar-toggler-icon{
+        color: #fff ;
+    }
+    .header-content {
+        padding-top: 48px !important;
+    }
+ }
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .pbt100 {
+        padding: 55px 0;
+    }
+    /* header */
+    .menu ul li a{
+        padding: 8px 15px !important;
+    }
+    .navbar {
+        padding: 8px 16px !important;
+    }
+    .header-icons{
+        text-align: left !important;
+    }
+    /* digimark */
+    #digimark .image-wrap{
+        padding-top: 45px;
+    }
+    /* promo */
+    .promo-items a {
+        display: block ;
+        margin-bottom: 24px !important;
+    }
+    /* about us */
+    .about-us-content{
+        margin-top: 24px;
+    }
+    /* performance */
+    #performance .form-content .form-item{
+        margin-bottom: 20px;
+        max-width: 100%;
+        right: 0;
+    }
+    #performance .form-content .form-item::after{
+        display: none;
+    }
+    /* choouse us */
+    #choose-us .about-us-img{
+        margin-top: 20px !important;
+    }
+    /* word process */
+    .process-line-left,
+    .process-line-right,
+    .process-right::after,
+    .process-left::after,
+    .process-none{
+        display: none;
+    }
+    .process-width.col-lg-5 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: auto;
+    }
+    /* Consulting */
+    .free-trial-image{
+        display: none;
+    }
+    .free-trial-content{
+        background-color: #E80566;
+        /* text-align: left;
+        max-width: 100% !important;
+        padding: 60px 30px !important; */
+    }
+    /* experince */
+    #experince .tab-pane.show .img-wrap , #experince .content-wrap{
+        margin-top: 20px !important;
+    }
+    #experince .services-cards .row{
+        margin: 0  !important;
+    }
+    /* price */
+    #pricing-section .popular-price{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    /* testomonial */
+    #testomonial-section .testomonial-slider-wrap .testimonial-img,
+    #testomonial-section .testomonial-slider-wrap::after,
+    #testomonial-section .testomonial-slider-wrap .fas{
+        display: none;
+    }
+    /* blog section */
+    #blog-section .single-card{
+        margin-bottom: 20px;
+    }
+    /* client section */
+    #client-section .client-heading,
+    #client-section .client-parag{
+        display: none;
+    }
+    #client-section .client-logo{
+        position: relative;
+        top:0;
+    }
+     /* team section */
+     #team-section .team-member{
+        margin-bottom: 20px;
+    }
+    /* call to action */
+    #call-to-action a{
+        margin-top: 20px;
+    }
+      /* footer */
+      .footer-top .footer-nav-wrap{
+        margin-bottom: 20px !important;
+    }
+    /* headet about */
+    #header .bg-transparent .navbar-toggler-icon{
+        color: #fff ;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .pbt100 {
+        padding: 55px 0;
+    }
+    /* header */
+    .menu ul li a{
+        padding: 8px 15px !important;
+    }
+    .navbar {
+        padding: 8px 16px !important;
+    }
+    /* digimark */
+    #digimark .image-wrap{
+        padding-top: 45px;
+    }
+    /* performance */
+    #performance .form-content .form-item{
+        margin-bottom: 20px;
+        max-width: 100%;
+        right: 0;
+    }
+    #performance .form-content .form-item::after{
+        display: none;
+    }
+    /* word process */
+    .process-line-left,
+    .process-line-right,
+    .process-right::after,
+    .process-left::after,
+    .process-none{
+        display: none;
+    }
+    .process-width.col-lg-5 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: auto;
+    }
+    /* Consulting */
+    .free-trial-image{
+        display: none;
+    }
+    .free-trial-content{
+        background-color: #E80566;
+        text-align: center;
+        max-width: 100% !important;
+        padding: 60px 15px !important;
+    }
+    /* testomonial */
+    #testomonial-section .testomonial-slider-wrap .testimonial-img,
+    #testomonial-section .testomonial-slider-wrap::after,
+    #testomonial-section .testomonial-slider-wrap .fas{
+        display: none;
+    }
+    #testomonial-section .testomonial-slider-wrap .media-body h5,
+    #testomonial-section .testomonial-slider-wrap .media-body span{
+        text-align: right;
+        display: block;
+    }
+    /* team section */
+    #team-section .team-member{
+        margin-bottom: 20px;
+    }
+    /* footer */
+    .footer-top .footer-nav-wrap{
+        margin-bottom: 20px !important;
+    }
+    /* headet about */
+    #header .bg-transparent .navbar-toggler-icon{
+        color: #fff ;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* word process */
+    .process-line-left,
+    .process-line-right,
+    .process-right::after,
+    .process-left::after,
+    .process-none{
+        display: none;
+    }
+    .process-width.col-lg-5 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: auto;
+    }
+    /* testomonial */
+    #testomonial-section .testomonial-slider-wrap .testimonial-img{
+        display: none;
+    }
+    /* team section */
+    #team-section .overlay .list-inline-item{
+        margin-right: 0 !important;
+    }
+    
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 1199px) {
+    .team-member .overlay ul.social a {
+        margin: 0 !important;
+    }
+
+} */
+
+/* @media (min-width:350px) and (max-width: 992px){
+    .process-line-left,
+    .process-line-right,
+    .process-right::after,
+    .process-left::after,
+    .process-none,
+    .free-trial-image,
+    .form-item,
+    .cta-image   {
+        display: none;
+    }
+
+    .process-width.col-lg-5 {
+        margin-top: 40px;
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: auto;
+    }
+
+    .free-trial-content{
+        background-color: #E80566;
+        text-align: center;
+        max-width: 100% !important;
+        padding: 60px 15px !important;
+    }
+} */
+
+
