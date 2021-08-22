@@ -72,9 +72,6 @@
     }
     .free-trial-content{
         background-color: #E80566;
-        /* text-align: left;
-        max-width: 100% !important;
-        padding: 60px 15px !important; */
     }
     /* experince */
     #experince .tab-pane.show .img-wrap , #experince .content-wrap{
@@ -135,13 +132,6 @@
         padding-top: 48px !important;
     }
  }
-
-
-
-
-
-
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -205,9 +195,6 @@
     }
     .free-trial-content{
         background-color: #E80566;
-        /* text-align: left;
-        max-width: 100% !important;
-        padding: 60px 30px !important; */
     }
     /* experince */
     #experince .tab-pane.show .img-wrap , #experince .content-wrap{
@@ -257,22 +244,6 @@
         color: #fff ;
     }
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
@@ -349,20 +320,6 @@
     }
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     /* word process */
@@ -391,92 +348,3 @@
     
     
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 1199px) {
-    .team-member .overlay ul.social a {
-        margin: 0 !important;
-    }
-
-} */
-
-/* @media (min-width:350px) and (max-width: 992px){
-    .process-line-left,
-    .process-line-right,
-    .process-right::after,
-    .process-left::after,
-    .process-none,
-    .free-trial-image,
-    .form-item,
-    .cta-image   {
-        display: none;
-    }
-
-    .process-width.col-lg-5 {
-        margin-top: 40px;
-        width: 100% !important;
-        max-width: 100% !important;
-        flex: auto;
-    }
-
-    .free-trial-content{
-        background-color: #E80566;
-        text-align: center;
-        max-width: 100% !important;
-        padding: 60px 15px !important;
-    }
-} */
-
-
